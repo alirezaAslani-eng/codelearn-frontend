@@ -1,0 +1,21 @@
+.titleWithEffect {
+    font-family: peyda-md;
+    width: fit-content;
+    position: relative;
+}
+
+.effect {
+    position: absolute;
+    inset: 0px;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    transform: translate(0, 0) rotate(0) skewX(-25deg) skewY(0) scaleX(1) scaleY(1);
+    backdrop-filter: blur(12px);
+}
+
+.secondText {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: dana-md;
+}

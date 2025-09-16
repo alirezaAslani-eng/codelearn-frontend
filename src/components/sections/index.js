@@ -1,0 +1,12 @@
+export { default as Landing } from "./Landing/Landing";
+export { default as NewCourses } from "./NewCourses/NewCourses";
+export { default as AboutUs } from "./AboutUs/AboutUs";
+export { default as Categories } from "./Categories/Categories";
+export { default as PreSaleCourses } from "./PreSaleCourse/PreSaleCourses";
+export { default as PopualrCourses } from "./PopualrCourses/PopularCourses";
+export { default as NewBlogs } from "./NewBlogs/NewBlogs";
+export { default as BlogDetails } from "./BlogDetails/BlogDetails";
+export { default as ShowAllComments } from "./ShowAllComments/ShowAllComments";
+export { default as CourseDetails } from "./CourseDetails/CourseDetails";
+export { default as ResultsOfGlogalSearch } from "./ResultsOfGlogalSearch/ResultsOfGlogalSearch";
+export { default as SessionsList } from "./SessionsList/SessionsList";

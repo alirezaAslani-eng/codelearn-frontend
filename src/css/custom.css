@@ -1,0 +1,7 @@
+.active {
+  color: #fcd34d !important;
+}
+button:disabled {
+  opacity: 0.5;
+}
+

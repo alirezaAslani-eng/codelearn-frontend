@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: dana-md;
+    src: url("../assist/fonts/Dana/DanaFaNum-Medium.woff2");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: peyda-md;
+    src: url("../assist/fonts/peyda/PeydaWeb-Medium.woff");
+    font-display: swap;
+  }
+  @font-face {
+    font-family: peyda-bold;
+    src: url("../assist/fonts/peyda/PeydaWeb-Bold.woff");
+    font-display: swap;
+  }
+}
+
+@layer components {
+  .brakPointGrid {
+    @apply grid grid-cols-1 xs:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6;
+  }
+  input {
+    @apply !outline-none disabled:opacity-50;
+  }
+  span,
+  a {
+    @apply block;
+  }
+  .imgBox {
+    @apply h-[140px] _330:h-[170px] 3xs:h-[200px] xs:h-[125px] _730:h-[200px] lg:h-[150px];
+  }
+  .imgBoxStart3Cols {
+    @apply h-[140px] _330:h-[170px] 3xs:h-[200px] xs:h-[160px] md:h-[220px] lg:h-[150px];
+  }
+  .danger-btn {
+    @apply text-red-500 p-2 bg-red-500/20 rounded-full cursor-pointer hover:bg-red-500/10 active:scale-[.97] transition-all;
+  }
+  .success-btn {
+    @apply text-green-500 p-2 bg-green-500/20 rounded-full cursor-pointer hover:bg-green-500/10 active:scale-[.97] transition-all;
+  }
+  .danger-text {
+    @apply text-red-500;
+  }
+  .success-text {
+    @apply text-green-500;
+  }
+
+
+  .clickAnimate {
+    @apply active:scale-[.95] transition-all;
+  }
+
+
+
+  .li > a {
+    @apply block p-2 transition-all hover:text-bg-accent;
+  }
+
+  /* component/TopBar/TopBar.js */
+  .buttonInHomeAtHeader {
+    @apply !bg-transparent !text-white !p-2;
+  }
+
+  .image {
+    @apply w-full h-full object-cover block;
+  }
+  /* text */
+  .abs-center {
+    @apply absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2;
+  }
+
+  .down {
+    @apply translate-y-full opacity-0;
+  }
+  .up {
+    @apply translate-y-0 opacity-100;
+  }
+
+  .boxContainer {
+    @apply bg-secondary-light dark:bg-secondary-dark rounded-md p-4 shadow;
+  }
+  .boxContainerPrimary {
+    @apply bg-primary-light dark:bg-primary-dark rounded-md p-4 shadow;
+  }
+
+  /* Buttons */
+  .accent {
+    @apply p-3 bg-bg-accent text-dark rounded-lg;
+  }
+  .accent-outline {
+    @apply p-3 border border-bg-accent text-dark dark:text-light rounded-lg hover:bg-bg-accent/20 transition-[_background-color];
+  }
+  .solidY {
+    @apply w-px h-full bg-dark/50 dark:bg-light/50;
+  }
+
+  .cs-scroll::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+  .cs-scroll::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .cs-scroll::-webkit-scrollbar-thumb {
+    @apply bg-bg-accent hover:bg-bg-accent/50 rounded-full;
+  }
+
+  svg {
+    @apply disabled:opacity-50;
+  }
+
+  .user-panel-container {
+    @apply px-4 2xs:px-8 lg:px-6 xl:px-10;
+  }
+  .user-top-container {
+    @apply pt-4 2xs:pt-8 lg:pt-6 xl:pt-10;
+  }
+  .user-bottom-container {
+    @apply pb-4 2xs:pb-8 lg:pb-6 xl:pb-10;
+  }
+  .course-swiper {
+    @apply h-[460px] xs:h-[420px] md:h-[480px] lg:h-[410px] select-none cursor-grab;
+  }
+
+  /* before and after virtual element  */
+  .accent-after {
+    @apply relative after:absolute after:-z-[1] after:w-10 after:h-10 after:bg-bg-accent after:rounded-sm after:-right-1.5 after:top-2;
+  }
+
+  .hidden-scroll::-webkit-scrollbar {
+    @apply w-0 h-0;
+  }
+  /* customizing scroll cllasses */
+  .accent-scroll::-webkit-scrollbar {
+    @apply _840:w-2 _840:h-2;
+  }
+  .accent-scroll::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .accent-scroll::-webkit-scrollbar-thumb {
+    @apply _840:bg-bg-accent/70 _840:hover:bg-bg-accent cursor-pointer;
+  }
+}

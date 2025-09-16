@@ -1,0 +1,13 @@
+export { default as Category } from "./Category/Category.jsx";
+export { default as Home } from "./Home/Home";
+export { default as CoursInfo } from "./CoursInfo/CoursInfo";
+export { default as BlogInfo } from "./BlogInfo/BlogInfo";
+export { default as AllCourses } from "./AllCourses/AllCourses";
+export { default as Register } from "./Register/Register";
+export { default as Login } from "./Login/Login";
+export { default as AllBlogs } from "./AllBlogs/AllBlogs";
+export { default as ContactUs } from "./ContactUs/ContactUs";
+export { default as GlobalSearch } from "./GlobalSearch/GlobalSearch";
+export { default as SessionInfo } from "./SessionInfo/SessionInfo";
+export { default as BuyCoursePage } from "./BuyCoursePage/BuyCoursePage";
+export { default as MobileChat } from "./MobileChat/MobileChat";

@@ -1,0 +1,71 @@
+import { createContext } from "react";
+const SessionInfoContext = createContext({
+  sessionInfo: {
+    session: {
+      course: "",
+      createdAt: "",
+      free: 0,
+      time: "",
+      title: "",
+      updatedAt: "",
+      video: "",
+      __v: 0,
+      _id: "",
+    },
+    sessions: [
+      {
+        course: "",
+        createdAt: "",
+        free: 0,
+        time: "",
+        title: "",
+        updatedAt: "",
+        video: "",
+        __v: 0,
+        _id: "",
+      },
+    ],
+    sessionNumber: 0, // custom property
+  },
+  courseInfo: {
+    _id: "",
+    name: "",
+    description: "",
+    cover: "",
+    support: "",
+    shortName: "",
+    price: 0,
+    isComplete: 0,
+    status: "start",
+    discount: 0,
+    categoryID: {
+      _id: "",
+      title: "",
+      createdAt: "",
+      updatedAt: "",
+      __v: 0,
+      name: "",
+    },
+    creator: {
+      _id: "",
+      username: "",
+      email: "",
+      name: "",
+      role: "",
+      createdAt: "",
+      updatedAt: "",
+      __v: 0,
+      profile: "",
+      phone: "",
+    },
+    createdAt: "",
+    updatedAt: "",
+    __v: 0,
+    courseStudentsCount: 0,
+    sessions: [],
+    comments: [],
+    isUserRegisteredToThisCourse: false,
+  },
+});
+
+export { SessionInfoContext };

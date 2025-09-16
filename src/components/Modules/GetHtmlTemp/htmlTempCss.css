@@ -1,0 +1,57 @@
+.light:root {
+  --link: rgba(56, 56, 240, 0.951);
+  --link-bg: rgba(56, 56, 240, 0.162);
+  --h1: rgba(0, 0, 0, 0.929);
+  --p: rgba(0, 0, 0, 0.753);
+  --em: rgba(73, 73, 73, 0.737);
+  --shadow-color: rgba(0, 0, 0, 0.737);
+}
+.dark:root {
+  --link: rgba(56, 56, 240, 0.951);
+  --link-bg: rgba(56, 56, 240, 0.162);
+  --h1: rgba(255, 255, 255, 0.967);
+  --p: rgba(255, 255, 255, 0.808);
+  --em: rgba(255, 255, 255, 0.737);
+}
+:root {
+  --radius-img: 12px;
+  --link-radius: 12px;
+  --shadow-img: 0px 0px 20px;
+  --h1-font-size: 24px;
+  --h1-margin: 20px 0px;
+  --em-margin: 10px 0px;
+  --link-margin: 10px 0px;
+  --link-padding: 5px 8px;
+  --img-margin: 10px 0px;
+  --p-margin: 10px 0px;
+}
+.tempt-style a {
+  display: inline-block;
+  margin: var(--em-margin);
+  padding: var(--link-padding);
+  border-radius: var(--link-radius);
+  color: var(--link);
+  background-color: var(--link-bg);
+}
+.tempt-style h1 {
+  font-size: var(--h1-font-size);
+  margin: var(--h1-margin);
+  color: var(--h1);
+}
+
+.tempt-style img {
+  width: 100%;
+  box-shadow: var(--shadow-color) var(--shadow-img);
+  border-radius: var(--radius-img);
+  margin: var(--img-margin);
+}
+
+.tempt-style em {
+  display: block;
+  margin: var(--em-margin);
+  color: var(--em);
+}
+.tempt-style > p {
+  color: var(--p);
+  margin: var(--p-margin);
+}

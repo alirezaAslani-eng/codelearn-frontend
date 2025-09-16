@@ -1,0 +1,9 @@
+export { ReactComponent as OpenFolderIcon } from "./openFolder.svg";
+export { ReactComponent as ServerErrorIcon } from "./ServerErrorIcon.svg";
+export { ReactComponent as UserIcon } from "./UserIcon.svg";
+export { ReactComponent as CornerIcon } from "./CornerIcon.svg";
+export { ReactComponent as EmailIcon } from "./EmailIcon.svg";
+export { ReactComponent as SmileIcon } from "./SmileIcon.svg";
+export { ReactComponent as StudentIcon } from "./StudentIcon.svg";
+export { ReactComponent as CodeIcon } from "./CodeIcon.svg";
+export { ReactComponent as ClockIcon } from "./ClockIcon.svg";
