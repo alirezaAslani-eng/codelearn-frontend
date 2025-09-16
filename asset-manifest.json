@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/codelearn-deployed/static/css/main.b8eac535.css",
+    "main.js": "/codelearn-deployed/static/js/main.e004dc9c.js",
+    "static/js/187.558715eb.chunk.js": "/codelearn-deployed/static/js/187.558715eb.chunk.js",
+    "static/media/PeydaWeb-Medium.woff": "/codelearn-deployed/static/media/PeydaWeb-Medium.45475ea02e8c6329cf81.woff",
+    "static/media/PeydaWeb-Bold.woff": "/codelearn-deployed/static/media/PeydaWeb-Bold.468454e6fb70673595c3.woff",
+    "static/media/DanaFaNum-Medium.woff2": "/codelearn-deployed/static/media/DanaFaNum-Medium.3c7fcbd8ab0682219f68.woff2",
+    "static/media/ServerErrorIcon.svg": "/codelearn-deployed/static/media/ServerErrorIcon.ebf646608ea5985603af4dba6e650a60.svg",
+    "static/media/openFolder.svg": "/codelearn-deployed/static/media/openFolder.f7d39c6d1eb662af269a38243a42634a.svg",
+    "static/media/StudentIcon.svg": "/codelearn-deployed/static/media/StudentIcon.3179931593801a113766bfd321e0754c.svg",
+    "static/media/EmailIcon.svg": "/codelearn-deployed/static/media/EmailIcon.b0f0fe4ae45668f1e78b7ce81cfe5d0c.svg",
+    "static/media/SmileIcon.svg": "/codelearn-deployed/static/media/SmileIcon.86dc3b8f2a506d5cc7984411d58a8b43.svg",
+    "static/media/CodeIcon.svg": "/codelearn-deployed/static/media/CodeIcon.c4a4f1b0291c07803f77b461b509e034.svg",
+    "index.html": "/codelearn-deployed/index.html",
+    "static/media/UserIcon.svg": "/codelearn-deployed/static/media/UserIcon.cec46e0d2c7f76ad4bff1785352f4f60.svg",
+    "static/media/ClockIcon.svg": "/codelearn-deployed/static/media/ClockIcon.3304f5e7c8c5aea8825b4d6dd9ed6c1c.svg",
+    "static/media/CornerIcon.svg": "/codelearn-deployed/static/media/CornerIcon.4a732ae5b71c0e97cbebc9698787857f.svg",
+    "main.b8eac535.css.map": "/codelearn-deployed/static/css/main.b8eac535.css.map",
+    "main.e004dc9c.js.map": "/codelearn-deployed/static/js/main.e004dc9c.js.map",
+    "187.558715eb.chunk.js.map": "/codelearn-deployed/static/js/187.558715eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8eac535.css",
+    "static/js/main.e004dc9c.js"
+  ]
+}
