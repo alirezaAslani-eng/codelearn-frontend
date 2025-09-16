@@ -5,7 +5,11 @@ import { memo } from "react";
 function Logo({ className, onClick = () => {} }) {
   return (
     <Link onClick={onClick} to={"/" + Main.root}>
-      <img className={`${className}`} src="/images/logo.webp" alt="" />
+      <img
+        className={`${className}`}
+        src="/codelearn-frontend/images/logo.webp"
+        alt=""
+      />
     </Link>
   );
 }

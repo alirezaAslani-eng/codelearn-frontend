@@ -33,7 +33,7 @@ export default function Landing({
           lazy={false}
           motion={false}
           inViewPortOption={false}
-          src="/images/landingBackground.webp"
+          src="/codelearn-frontend/images/landingBackground.webp"
           className="image absolute inset-0"
         />
 

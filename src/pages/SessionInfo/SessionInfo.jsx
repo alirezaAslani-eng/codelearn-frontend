@@ -38,7 +38,10 @@ export default function SessionInfo() {
         {/* Video */}
         <section className="container mt-3 sm:mt-6">
           <div className="aspect-video font-dana-md">
-            <VideoJs src="/images/test.mp4" poster={imageAddrees + cover} />
+            <VideoJs
+              src="/codelearn-frontend/images/test.mp4"
+              poster={imageAddrees + cover}
+            />
           </div>
         </section>
 

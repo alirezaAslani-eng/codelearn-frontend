@@ -23,7 +23,10 @@ export default memo(function Footer() {
           <aside className="flex-1 min-w-0">
             <div className={"flex items-center gap-x-2"}>
               {/* Logo ______________> */}
-              <Img src="/images/logo.webp" className="size-10 sm:size-16" />
+              <Img
+                src="/codelearn-frontend/images/logo.webp"
+                className="size-10 sm:size-16"
+              />
               <Title
                 defaultColor={false}
                 level="1"
@@ -38,10 +41,20 @@ export default memo(function Footer() {
             </div>
           </aside>
           <aside className="flex items-center gap-x-2 self-start">
-            <a href="" className={"gold-bg-bg-accent/20 text-bg-accent p-1.5 rounded-lg text-3xl "} >
+            <a
+              href=""
+              className={
+                "gold-bg-bg-accent/20 text-bg-accent p-1.5 rounded-lg text-3xl "
+              }
+            >
               <HiOutlineLink />
             </a>
-            <a href="" className={"gold-bg-bg-accent/20 text-bg-accent p-1.5 rounded-lg text-3xl"}>
+            <a
+              href=""
+              className={
+                "gold-bg-bg-accent/20 text-bg-accent p-1.5 rounded-lg text-3xl"
+              }
+            >
               <HiOutlineLink />
             </a>
           </aside>
