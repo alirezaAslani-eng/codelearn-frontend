@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codelearn-frontend/static/css/main.19fe1747.css",
-    "main.js": "/codelearn-frontend/static/js/main.16e992d5.js",
+    "main.js": "/codelearn-frontend/static/js/main.a06b4d3a.js",
     "static/js/187.558715eb.chunk.js": "/codelearn-frontend/static/js/187.558715eb.chunk.js",
     "static/media/PeydaWeb-Medium.woff": "/codelearn-frontend/static/media/PeydaWeb-Medium.45475ea02e8c6329cf81.woff",
     "static/media/PeydaWeb-Bold.woff": "/codelearn-frontend/static/media/PeydaWeb-Bold.468454e6fb70673595c3.woff",
@@ -17,11 +17,11 @@
     "static/media/ClockIcon.svg": "/codelearn-frontend/static/media/ClockIcon.3304f5e7c8c5aea8825b4d6dd9ed6c1c.svg",
     "static/media/CornerIcon.svg": "/codelearn-frontend/static/media/CornerIcon.4a732ae5b71c0e97cbebc9698787857f.svg",
     "main.19fe1747.css.map": "/codelearn-frontend/static/css/main.19fe1747.css.map",
-    "main.16e992d5.js.map": "/codelearn-frontend/static/js/main.16e992d5.js.map",
+    "main.a06b4d3a.js.map": "/codelearn-frontend/static/js/main.a06b4d3a.js.map",
     "187.558715eb.chunk.js.map": "/codelearn-frontend/static/js/187.558715eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19fe1747.css",
-    "static/js/main.16e992d5.js"
+    "static/js/main.a06b4d3a.js"
   ]
 }
