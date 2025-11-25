@@ -1,6 +1,6 @@
 const getOneTicket = async ({ headers, param }) => {
   const res = await fetch(
-    `https://codelearn-backend.onrender.com/v1/tickets/answer/${param}`,
+    `https://codelearn-backend-production.up.railway.app/v1/tickets/answer/${param}`,
     {
       headers,
     }

@@ -1,6 +1,6 @@
 const getUserInfo = async ({ param, headers }) => {
   const res = await fetch(
-    `https://codelearn-backend.onrender.com/v1/orders/${param}`,
+    `https://codelearn-backend-production.up.railway.app/v1/orders/${param}`,
     {
       headers,
     }

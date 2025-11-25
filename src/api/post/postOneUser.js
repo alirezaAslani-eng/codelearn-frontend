@@ -1,7 +1,7 @@
 export default async function postOneUser({ body }) {
   if (!body) throw new Error("you might didn't send body as a prop");
   const res = await fetch(
-    "https://codelearn-backend.onrender.com/v1/auth/register",
+    "https://codelearn-backend-production.up.railway.app/v1/auth/register",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },

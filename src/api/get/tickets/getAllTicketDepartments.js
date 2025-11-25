@@ -1,6 +1,6 @@
 export default async function getAllTicketDepartments() {
   const res = await fetch(
-    "https://codelearn-backend.onrender.com/v1/tickets/departments"
+    "https://codelearn-backend-production.up.railway.app/v1/tickets/departments"
   );
   const jsonResponse = await res.json();
   if (!res.ok) {

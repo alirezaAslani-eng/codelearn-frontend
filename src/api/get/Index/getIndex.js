@@ -1,6 +1,6 @@
 export default async function getIndex() {
   const res = await fetch(
-    "https://codelearn-backend.onrender.com/v1/infos/index"
+    "https://codelearn-backend-production.up.railway.app/v1/infos/index"
   );
   const jsonResponse = await res.json();
   if (!res.ok) {

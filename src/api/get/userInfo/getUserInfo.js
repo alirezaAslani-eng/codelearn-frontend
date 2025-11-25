@@ -3,9 +3,12 @@ const getUserInfo = async () => {
   if (!token?.userToken) {
     throw "user is not login";
   }
-  const res = await fetch("https://codelearn-backend.onrender.com/v1/auth/me", {
-    headers: { Authorization: `Bearer ${token?.userToken}` },
-  });
+  const res = await fetch(
+    "https://codelearn-backend-production.up.railway.app/v1/auth/me",
+    {
+      headers: { Authorization: `Bearer ${token?.userToken}` },
+    }
+  );
 
   const jsonResponse = await res.json();
 

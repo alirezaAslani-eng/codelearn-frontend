@@ -1,6 +1,6 @@
 export default async function postOneComment({ body, headers }) {
   const res = await fetch(
-    "https://codelearn-backend.onrender.com/v1/comments",
+    "https://codelearn-backend-production.up.railway.app/v1/comments",
     {
       method: "POST",
       headers: { "Content-Type": "application/json", ...headers },
