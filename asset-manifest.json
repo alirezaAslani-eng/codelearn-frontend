@@ -1,8 +1,22 @@
 {
   "files": {
     "main.css": "/codelearn-frontend/static/css/main.19fe1747.css",
-    "main.js": "/codelearn-frontend/static/js/main.a322ce8b.js",
-    "static/js/187.558715eb.chunk.js": "/codelearn-frontend/static/js/187.558715eb.chunk.js",
+    "main.js": "/codelearn-frontend/static/js/main.6488a17f.js",
+    "static/js/895.43551d3c.chunk.js": "/codelearn-frontend/static/js/895.43551d3c.chunk.js",
+    "static/js/496.26a1f91f.chunk.js": "/codelearn-frontend/static/js/496.26a1f91f.chunk.js",
+    "static/js/478.c542b154.chunk.js": "/codelearn-frontend/static/js/478.c542b154.chunk.js",
+    "static/js/755.10d276c5.chunk.js": "/codelearn-frontend/static/js/755.10d276c5.chunk.js",
+    "static/js/421.3f4133a0.chunk.js": "/codelearn-frontend/static/js/421.3f4133a0.chunk.js",
+    "static/js/212.4f79ddd0.chunk.js": "/codelearn-frontend/static/js/212.4f79ddd0.chunk.js",
+    "static/js/297.757cf5ce.chunk.js": "/codelearn-frontend/static/js/297.757cf5ce.chunk.js",
+    "static/js/749.e6063787.chunk.js": "/codelearn-frontend/static/js/749.e6063787.chunk.js",
+    "static/js/382.0dbda23b.chunk.js": "/codelearn-frontend/static/js/382.0dbda23b.chunk.js",
+    "static/js/272.8608eb58.chunk.js": "/codelearn-frontend/static/js/272.8608eb58.chunk.js",
+    "static/js/726.578c7170.chunk.js": "/codelearn-frontend/static/js/726.578c7170.chunk.js",
+    "static/js/702.49f2eec7.chunk.js": "/codelearn-frontend/static/js/702.49f2eec7.chunk.js",
+    "static/js/95.5603c31f.chunk.js": "/codelearn-frontend/static/js/95.5603c31f.chunk.js",
+    "static/js/187.3a0cd1ab.chunk.js": "/codelearn-frontend/static/js/187.3a0cd1ab.chunk.js",
+    "static/js/801.730a57fb.chunk.js": "/codelearn-frontend/static/js/801.730a57fb.chunk.js",
     "static/media/PeydaWeb-Medium.woff": "/codelearn-frontend/static/media/PeydaWeb-Medium.45475ea02e8c6329cf81.woff",
     "static/media/PeydaWeb-Bold.woff": "/codelearn-frontend/static/media/PeydaWeb-Bold.468454e6fb70673595c3.woff",
     "static/media/DanaFaNum-Medium.woff2": "/codelearn-frontend/static/media/DanaFaNum-Medium.3c7fcbd8ab0682219f68.woff2",
@@ -17,11 +31,25 @@
     "static/media/ClockIcon.svg": "/codelearn-frontend/static/media/ClockIcon.3304f5e7c8c5aea8825b4d6dd9ed6c1c.svg",
     "static/media/CornerIcon.svg": "/codelearn-frontend/static/media/CornerIcon.4a732ae5b71c0e97cbebc9698787857f.svg",
     "main.19fe1747.css.map": "/codelearn-frontend/static/css/main.19fe1747.css.map",
-    "main.a322ce8b.js.map": "/codelearn-frontend/static/js/main.a322ce8b.js.map",
-    "187.558715eb.chunk.js.map": "/codelearn-frontend/static/js/187.558715eb.chunk.js.map"
+    "main.6488a17f.js.map": "/codelearn-frontend/static/js/main.6488a17f.js.map",
+    "895.43551d3c.chunk.js.map": "/codelearn-frontend/static/js/895.43551d3c.chunk.js.map",
+    "496.26a1f91f.chunk.js.map": "/codelearn-frontend/static/js/496.26a1f91f.chunk.js.map",
+    "478.c542b154.chunk.js.map": "/codelearn-frontend/static/js/478.c542b154.chunk.js.map",
+    "755.10d276c5.chunk.js.map": "/codelearn-frontend/static/js/755.10d276c5.chunk.js.map",
+    "421.3f4133a0.chunk.js.map": "/codelearn-frontend/static/js/421.3f4133a0.chunk.js.map",
+    "212.4f79ddd0.chunk.js.map": "/codelearn-frontend/static/js/212.4f79ddd0.chunk.js.map",
+    "297.757cf5ce.chunk.js.map": "/codelearn-frontend/static/js/297.757cf5ce.chunk.js.map",
+    "749.e6063787.chunk.js.map": "/codelearn-frontend/static/js/749.e6063787.chunk.js.map",
+    "382.0dbda23b.chunk.js.map": "/codelearn-frontend/static/js/382.0dbda23b.chunk.js.map",
+    "272.8608eb58.chunk.js.map": "/codelearn-frontend/static/js/272.8608eb58.chunk.js.map",
+    "726.578c7170.chunk.js.map": "/codelearn-frontend/static/js/726.578c7170.chunk.js.map",
+    "702.49f2eec7.chunk.js.map": "/codelearn-frontend/static/js/702.49f2eec7.chunk.js.map",
+    "95.5603c31f.chunk.js.map": "/codelearn-frontend/static/js/95.5603c31f.chunk.js.map",
+    "187.3a0cd1ab.chunk.js.map": "/codelearn-frontend/static/js/187.3a0cd1ab.chunk.js.map",
+    "801.730a57fb.chunk.js.map": "/codelearn-frontend/static/js/801.730a57fb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.19fe1747.css",
-    "static/js/main.a322ce8b.js"
+    "static/js/main.6488a17f.js"
   ]
 }

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcodelearn=self.webpackChunkcodelearn||[]).push([[212],{4212:(e,r,s)=>{s.r(r),s.d(r,{default:()=>d});var a=s(1801),n=s(3700),i=s(2532),l=s(1591),c=s(579);function d(){const{data:e,isLoading:r,isError:s}=(0,i.I)({queryKey:n.lH.courses.all});return(0,c.jsxs)(c.Fragment,{children:[(0,c.jsx)(l.m,{children:(0,c.jsx)("title",{children:"\u06a9\u062f \u0644\u0631\u0646 | \u062f\u0648\u0631\u0647"})}),(0,c.jsx)(a.w6,{data:e,isError:s,isLoading:r}),";"]})}}}]);
+//# sourceMappingURL=212.4f79ddd0.chunk.js.map
