@@ -2,17 +2,27 @@ import { lazy, Suspense } from "react";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Main, userPanel } from "./clientPath";
 import Home from "../pages/Home/Home";
-import Register from "../pages/Register/Register";
-import Login from "../pages/Login/Login";
-import BuyCoursePage from "../pages/BuyCoursePage/BuyCoursePage";
-import MobileChat from "../pages/MobileChat/MobileChat";
-import CategoryContainer from "../container/pagesContainer/CategoryContainer";
-import AllCoursesContainer from "../container/pagesContainer/AllCoursesContainer";
-import AllBlogsContainer from "../container/pagesContainer/AllBlogsContainer";
-import GlobalSearchContainer from "../container/pagesContainer/GlobalSearchContainer";
 import { UserPanelPrivet } from "../components/Modules";
 import RootLayout from "../layout/RootLayout";
 // Lazied -- >
+const Login = lazy(() => import("../pages/Login/Login"));
+const BuyCoursePage = lazy(() =>
+  import("../pages/BuyCoursePage/BuyCoursePage")
+);
+const MobileChat = lazy(() => import("../pages/MobileChat/MobileChat"));
+const CategoryContainer = lazy(() =>
+  import("../container/pagesContainer/CategoryContainer")
+);
+const AllBlogsContainer = lazy(() =>
+  import("../container/pagesContainer/AllBlogsContainer")
+);
+const AllCoursesContainer = lazy(() =>
+  import("../container/pagesContainer/AllCoursesContainer")
+);
+const GlobalSearchContainer = lazy(() =>
+  import("../container/pagesContainer/GlobalSearchContainer")
+);
+const Register = lazy(() => import("../pages/Register/Register"));
 const RootUserPanel = lazy(() => import("../layout/RootUserPanel"));
 const ContactUs = lazy(() => import("../pages/ContactUs/ContactUs"));
 const CourseInfoContainer = lazy(() =>
