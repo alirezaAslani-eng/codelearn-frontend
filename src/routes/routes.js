@@ -1,15 +1,17 @@
 import { lazy, Suspense } from "react";
 import { createBrowserRouter, Navigate } from "react-router-dom";
 import { Main, userPanel } from "./clientPath";
-import { Home, Register, Login, BuyCoursePage, MobileChat } from "../pages";
-import {
-  CategoryContainer,
-  AllCoursesContainer,
-  AllBlogsContainer,
-  GlobalSearchContainer,
-} from "../container";
+import Home from "../pages/Home/Home";
+import Register from "../pages/Register/Register";
+import Login from "../pages/Login/Login";
+import BuyCoursePage from "../pages/BuyCoursePage/BuyCoursePage";
+import MobileChat from "../pages/MobileChat/MobileChat";
+import CategoryContainer from "../container/pagesContainer/CategoryContainer";
+import AllCoursesContainer from "../container/pagesContainer/AllCoursesContainer";
+import AllBlogsContainer from "../container/pagesContainer/AllBlogsContainer";
+import GlobalSearchContainer from "../container/pagesContainer/GlobalSearchContainer";
 import { UserPanelPrivet } from "../components/Modules";
-import { RootLayout } from "../layout";
+import RootLayout from "../layout/RootLayout";
 // Lazied -- >
 const RootUserPanel = lazy(() => import("../layout/RootUserPanel"));
 const ContactUs = lazy(() => import("../pages/ContactUs/ContactUs"));
