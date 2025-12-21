@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/codelearn-frontend/static/css/main.19fe1747.css",
-    "main.js": "/codelearn-frontend/static/js/main.6488a17f.js",
+    "main.js": "/codelearn-frontend/static/js/main.d8fd8294.js",
     "static/js/895.43551d3c.chunk.js": "/codelearn-frontend/static/js/895.43551d3c.chunk.js",
     "static/js/496.26a1f91f.chunk.js": "/codelearn-frontend/static/js/496.26a1f91f.chunk.js",
     "static/js/478.c542b154.chunk.js": "/codelearn-frontend/static/js/478.c542b154.chunk.js",
@@ -31,7 +31,7 @@
     "static/media/ClockIcon.svg": "/codelearn-frontend/static/media/ClockIcon.3304f5e7c8c5aea8825b4d6dd9ed6c1c.svg",
     "static/media/CornerIcon.svg": "/codelearn-frontend/static/media/CornerIcon.4a732ae5b71c0e97cbebc9698787857f.svg",
     "main.19fe1747.css.map": "/codelearn-frontend/static/css/main.19fe1747.css.map",
-    "main.6488a17f.js.map": "/codelearn-frontend/static/js/main.6488a17f.js.map",
+    "main.d8fd8294.js.map": "/codelearn-frontend/static/js/main.d8fd8294.js.map",
     "895.43551d3c.chunk.js.map": "/codelearn-frontend/static/js/895.43551d3c.chunk.js.map",
     "496.26a1f91f.chunk.js.map": "/codelearn-frontend/static/js/496.26a1f91f.chunk.js.map",
     "478.c542b154.chunk.js.map": "/codelearn-frontend/static/js/478.c542b154.chunk.js.map",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.19fe1747.css",
-    "static/js/main.6488a17f.js"
+    "static/js/main.d8fd8294.js"
   ]
 }
