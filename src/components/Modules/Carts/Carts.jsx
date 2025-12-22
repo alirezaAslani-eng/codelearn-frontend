@@ -67,11 +67,12 @@ export default function Carts({ onBuy = defProps.onBuy }) {
       {carts?.length ? (
         <div className="px-5 mt-4">
           <Button
+            disabled
             onClick={onBuyCaller}
             to={"/buy"}
             className="accent-outline w-full"
           >
-            خرید
+            {"پر داخت غیر فعال"}
           </Button>
         </div>
       ) : null}

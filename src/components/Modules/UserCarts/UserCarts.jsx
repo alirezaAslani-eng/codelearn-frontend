@@ -1,6 +1,6 @@
-import  { memo, useContext } from "react";
+import { memo, useContext } from "react";
 import { CartsContext } from "../../../context";
-import { CartBox, NoData } from "../../Ui";
+import { Button, CartBox, NoData } from "../../Ui";
 import LoadeingErrorHandler from "../LoadeingErrorHandler/LoadeingErrorHandler";
 import { AnimatePresence, motion } from "framer-motion";
 import Opacity from "../Animations/Opacity";
@@ -36,13 +36,12 @@ function UserCarts() {
 
           <motion.section
             layout="position"
-            className="flex items-center justify-between bg-green-500/30 text-green-500 p-5 rounded-xl"
+            className="flex items-center justify-between p-5 rounded-xl"
           >
-            <div>در مجموع :</div>
-            <div className="flex items-center gap-x-px">
-              <span>{totalPrice}</span>
-              <span className="text-xs block self-end">تومان</span>
-            </div>
+            <Button
+              className="accent-outline"
+              disabled
+            >{`پر داخت غیر فعال ${totalPrice}`}</Button>
           </motion.section>
         </LoadeingErrorHandler>
       </div>
