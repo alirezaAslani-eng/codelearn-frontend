@@ -88,33 +88,14 @@ function UserSideBarMobile({
           <section className="mb-5">
             {/* Logo , close button and theme button */}
             <div className="flex justify-between items-center">
-              <aside>
-                <Logo onClick={closeHandler} className="w-10 h-10" />
-              </aside>
-              <aside className=" flex items-center gap-x-2">
-                {/* Dark lighrt button */}
-                <div className="text-dark/80 dark:text-light/80">
-                  <Button
-                    onClick={onDarkHandler}
-                    className="dark:hidden block accent-outline rounded-full"
-                  >
-                    <HiMoon className="w-4 h-4" />
-                  </Button>
-                  <Button
-                    onClick={onLightHandler}
-                    className="dark:block hidden accent-outline rounded-full"
-                  >
-                    <HiOutlineSun className="w-4 h-4" />
-                  </Button>
-                </div>
-                {/* Close Button */}
-                <Button
-                  onClick={closeHandler}
-                  className="accent-outline rounded-full"
-                >
-                  <HiX className="w-4 h-4" />
-                </Button>
-              </aside>
+              {/* Close Button */}
+              <Button
+                onClick={closeHandler}
+                className="accent-outline rounded-full"
+              >
+                <HiX className="w-4 h-4" />
+              </Button>
+              <Logo onClick={closeHandler} className="w-10 h-10" />
             </div>
             {/* User Name box  */}
             <div className="p-3 mt-5 space-y-2 text-center font-dana-md text-xs [&>span]:block bg-bg-accent rounded-lg text-dark">

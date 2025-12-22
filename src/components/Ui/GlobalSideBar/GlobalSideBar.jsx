@@ -100,32 +100,13 @@ export default function GlobalSideBar({
         <section className="mb-5">
           {/* Logo , close button and theme button */}
           <div className="flex justify-between items-center">
-            <aside>
-              <Logo onClick={onCloseCaller} className="w-10 h-10" />
-            </aside>
-            <aside className=" flex items-center gap-x-2">
-              {/* Dark lighrt button */}
-              <div className="text-dark/80 dark:text-light/80">
-                <Button
-                  onClick={onDarkCaller}
-                  className="dark:hidden block accent-outline rounded-full"
-                >
-                  <HiMoon className="w-4 h-4" />
-                </Button>
-                <Button
-                  onClick={onLightCaller}
-                  className="dark:block hidden accent-outline rounded-full"
-                >
-                  <HiOutlineSun className="w-4 h-4" />
-                </Button>
-              </div>
-              <Button
-                onClick={onCloseCaller}
-                className="accent-outline rounded-full"
-              >
-                <HiX className="w-4 h-4" />
-              </Button>
-            </aside>
+            <Button
+              onClick={onCloseCaller}
+              className="accent-outline rounded-full"
+            >
+              <HiX className="w-4 h-4" />
+            </Button>
+            <Logo onClick={onCloseCaller} className="w-10 h-10" />
           </div>
         </section>
         {/* menus (Body section) */}

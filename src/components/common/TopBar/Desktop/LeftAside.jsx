@@ -112,23 +112,6 @@ export default function LeftAside({
           </MenuBox>
         </div>
       )}
-      {/* left-Aside / dark-light-button ---> */}
-      {theme && (
-        <div className="hidden _840:block">
-          <Button
-            onClick={() => themeHandler("dark")}
-            className="accent-outline rounded-full  dark:hidden"
-          >
-            <HiMoon className="size-6 block" />
-          </Button>
-          <Button
-            onClick={() => themeHandler("light")}
-            className="accent-outline rounded-full  hidden dark:block"
-          >
-            <HiOutlineSun className="text-dark dark:text-light size-4 _840:size-6 " />
-          </Button>
-        </div>
-      )}
       {/* left-Aside / User or login-button ----->> */}
       {user && (
         <LoadeingErrorHandler
