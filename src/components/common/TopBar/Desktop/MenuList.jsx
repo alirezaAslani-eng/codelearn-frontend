@@ -89,7 +89,7 @@ function MenuList({ data }) {
                           className={
                             " py-3 px-2 flex items-center justify-between gap-x-2"
                           }
-                          to={li?.href}
+                          to={"/main/course-info/"+li?.href}
                         >
                           {li?.title}
                           <HiChevronLeft className="min-w-[14px] min-h-[14px]" />

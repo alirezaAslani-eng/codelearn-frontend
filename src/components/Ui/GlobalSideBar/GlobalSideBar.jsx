@@ -206,10 +206,7 @@ export default function GlobalSideBar({
                           <NavLink
                             key={index}
                             onClick={onCloseCaller}
-                            to={getLink({
-                              clientRoute: "/main/",
-                              href: sub?.href,
-                            })}
+                            to={"/main/course-info/" + sub?.href}
                             end
                           >
                             {sub?.title}
