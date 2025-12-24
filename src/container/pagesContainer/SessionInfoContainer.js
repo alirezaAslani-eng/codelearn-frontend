@@ -43,8 +43,10 @@ export default function CourseInfoContainer() {
       }),
   });
 
-  if (sessionIsLoading || courseInfoIsLoading) return null;
-  else if (sessionIsError || courseInfoIsError) return null;
+  if (sessionIsLoading || courseInfoIsLoading)
+    return <div>کمی صبر کنید ...</div>;
+  else if (sessionIsError || courseInfoIsError)
+    return <div>کمی صبر کنید ...</div>;
 
   const sessionNumber =
     sessionInfo?.sessions?.findIndex(
