@@ -158,11 +158,6 @@ function Form({
                   {loginForm ? "ایجاد حساب جدید" : "حساب دارم"}
                 </Link>
               )}
-              {loginForm && (
-                <Link className="danger-btn" to={"/foregt-pass"}>
-                  {"رمز یادم نیست"}
-                </Link>
-              )}
             </div>
           </div>
           {/* form > Submit button */}
