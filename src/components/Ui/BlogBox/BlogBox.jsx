@@ -42,7 +42,7 @@ export default memo(function BlogBox(props) {
         {/* Description ____________> */}
         <Text
           defaultFontStyle={false}
-          className={`line-clamp-4 text-sm font-dana-md  ${darkLightWithOpacity}`}
+          className={`line-clamp-3 text-sm font-dana-md  ${darkLightWithOpacity}`}
         >
           {description}
         </Text>
