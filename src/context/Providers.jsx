@@ -6,6 +6,7 @@ import {
   ShowErrorProvider,
   ToggleActionProvider,
 } from "./index";
+import { ScrollStateProvider } from "./react-scroll";
 // global provider
 function GlobalProvider({ children }) {
   return (
@@ -18,7 +19,9 @@ function GlobalProvider({ children }) {
             {/* Modal Provider */}
             <ModalProvider>
               {/* Show Errors Provider */}
-              <ShowErrorProvider>{children}</ShowErrorProvider>
+              <ShowErrorProvider>
+                <ScrollStateProvider>{children}</ScrollStateProvider>
+              </ShowErrorProvider>
             </ModalProvider>
           </ToggleActionProvider>
         </CartsContextProvider>

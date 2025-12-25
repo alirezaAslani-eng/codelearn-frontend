@@ -14,6 +14,8 @@ import { themeHandler } from "../utils";
 import { useMediaQuery } from "@mui/material";
 import ChatBoxButton from "../components/Ui/Buttons/ChatBoxButton";
 import ChatBoxIcon from "../components/Ui/ChatBox/ChatBoxIcon";
+import { useSetScroll } from "../context/react-scroll";
+
 // Lazied Component -- >
 const Footer = lazy(() => import("../components/common/Footer/Footer"));
 const ChatBoxWithLogic = lazy(() =>
@@ -24,6 +26,7 @@ function RootLayout() {
   const { pathname } = useLocation();
   const canIShow = !arryPath.includes(pathname.split("/")[2]);
   const isDesktop = useMediaQuery("(min-width:840px)");
+  useSetScroll();
   // Context - >
   const {
     globalSideBarHandler,
