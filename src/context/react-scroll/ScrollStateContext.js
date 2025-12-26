@@ -1,4 +1,5 @@
 // ! Dependencies //////////////////////////////////////////////////// <
+import { useEffectEvent } from "react";
 import { createContext, useCallback, useState } from "react";
 // ! Dependencies //////////////////////////////////////////////////// <
 const ScrollStateContext = createContext({
@@ -12,15 +13,14 @@ export default function ScrollStateProvider({ children }) {
   // this map contains scroll states to make theme uniq because a page dosen't unmount for once and its path set again if we dont use Map
   // this function add or update states
 
-  const addScrollState = useCallback(
+  const addScrollState = useEffectEvent(
     /**
      * @param {{path:string,scroll:{y:number}}} param0
      */
     ({ path, scroll }) => {
       uniqScrollStates.set(path, scroll);
       setScrollStates([...uniqScrollStates]);
-    },
-    [uniqScrollStates, setScrollStates]
+    }
   );
 
   const providedValue = {
