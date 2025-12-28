@@ -9,6 +9,8 @@ function Img({
   inViewPortOption = true,
   motion = true,
   lazy = true,
+  srcSet,
+  sizes,
 }) {
   const [imgIsLoade, setLoade] = useState(false); // when image is loaded !
   const [inViewPort, setInViewPort] = useState(inViewPortOption ? false : true); // when image show in view port!
@@ -47,7 +49,14 @@ function Img({
 
       <img
         ref={imgRef}
-        src={inViewPortOption ? (inViewed ? src : inViewPort ? src : null) : src}
+        onLoad={() => setLoade(true)}
+        onError={() => setLoade(false)}
+        loading={lazy ? "lazy" : "eager"}
+        srcSet={srcSet}
+        sizes={sizes}
+        src={
+          inViewPortOption ? (inViewed ? src : inViewPort ? src : null) : src
+        }
         className={`${className}  transition-all duration-500 ${
           !motion && "opacity-100 visible"
         } ${
@@ -57,9 +66,6 @@ function Img({
               : "invisible  opacity-0"
             : ""
         }`}
-        onLoad={() => setLoade(true)}
-        onError={() => setLoade(false)}
-        loading={lazy ? "lazy" : "eager"}
       />
     </>
   );
