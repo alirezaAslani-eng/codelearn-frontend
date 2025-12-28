@@ -1,5 +1,5 @@
 let imageAddrees =
-  "https://codelearn-backend-production.up.railway.app/courses/covers/";
-let serevrRoute = "https://codelearn-backend-production.up.railway.app";
-let clientRoute = "http://localhost:3000";
+  "https://alireza-eng.ir/courses/covers/";
+let serevrRoute = "https://alireza-eng.ir";
+let clientRoute = "https://alirezaaslani-eng.github.io";
 export { imageAddrees, serevrRoute, clientRoute };

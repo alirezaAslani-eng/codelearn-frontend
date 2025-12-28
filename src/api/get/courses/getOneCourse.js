@@ -1,6 +1,6 @@
 export default async function getOneCourse({ param, headers }) {
   const res = await fetch(
-    `https://codelearn-backend-production.up.railway.app/v1/courses/${param}`,
+    `https://alireza-eng.ir/v1/courses/${param}`,
     headers
   );
   const jsonResponse = await res.json();
