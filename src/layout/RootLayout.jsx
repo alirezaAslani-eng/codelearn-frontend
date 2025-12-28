@@ -1,7 +1,7 @@
 import { lazy, Suspense, useContext } from "react";
 import { arryPath } from "../routes/withOutLayoutPaths";
 // Router -- >
-import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 // Component -->
 import { BottomBar, Header } from "../components/common";
 import { GlobalSideBar } from "../components/Ui";
@@ -26,7 +26,9 @@ function RootLayout() {
   const { pathname } = useLocation();
   const canIShow = !arryPath.includes(pathname.split("/")[2]);
   const isDesktop = useMediaQuery("(min-width:840px)");
-  useSetScroll();
+  useSetScroll({
+    alwaysTop: ["/main/course-info", "/main/session-info", "/main/blog-info"],
+  });
   // Context - >
   const {
     globalSideBarHandler,

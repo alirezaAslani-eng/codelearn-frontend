@@ -27,6 +27,7 @@ import {
 import { Main, userPanel } from "../routes/clientPath";
 import { BottomBar } from "../components/common";
 import HocGetNowDate from "../components/sharedLogic/hoc/HocGetNowDate";
+import { useSetScroll } from "../context/react-scroll";
 // nested Routes structure they are here because of userPanel lazied -- >
 const userPanelRoutes = [
   {
@@ -97,6 +98,7 @@ export default function RootUserPanel() {
       onLogout: () => logout({ navigatePath: "/" + Main.root }),
     };
   }, []);
+  useSetScroll();
   return (
     <>
       <div className="w-full _840:flex">
@@ -118,7 +120,6 @@ export default function RootUserPanel() {
           <UserTopBar actions={memoizedTobBarProps} />
           <div className="relative user-panel-container user-top-container user-bottom-container min-h-[calc(100vh-65.6px)] _840:min-h-[calc(100vh-89.6px)]">
             {routes}
-            <ScrollRestoration />
           </div>
         </div>
       </div>
