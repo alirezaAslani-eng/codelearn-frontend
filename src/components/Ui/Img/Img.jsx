@@ -32,6 +32,7 @@ function Img({
       if (imgRef.current) observer.unobserve(imgRef.current);
     };
   }, []);
+
   return (
     <>
       {loader
@@ -46,7 +47,7 @@ function Img({
 
       <img
         ref={imgRef}
-        src={inViewPortOption ? (inViewed ? src : inViewPort ? src : "") : src}
+        src={inViewPortOption ? (inViewed ? src : inViewPort ? src : null) : src}
         className={`${className}  transition-all duration-500 ${
           !motion && "opacity-100 visible"
         } ${
