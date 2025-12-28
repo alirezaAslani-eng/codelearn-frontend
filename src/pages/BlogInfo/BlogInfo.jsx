@@ -1,4 +1,4 @@
-import  { useContext } from "react";
+import { useContext } from "react";
 // component >>
 import { BreadCrump, QuickAccesBox } from "../../components/Ui";
 import { RelatedCourses as PopularCourses } from "../../components/Modules";
@@ -7,7 +7,7 @@ import { AuthContext } from "../../context";
 // section -- >
 import { BlogDetails } from "../../components/sections";
 import { BlogInfoContext } from "../../context/pageContext";
-import { useBreadCrump, useScroll } from "../../hooks";
+import { useBreadCrump } from "../../hooks";
 import { HocWithDataA } from "../../components/sharedLogic/hoc";
 import { queryKeys } from "../../libs/reactQuery";
 import { fromMain, Main } from "../../routes/clientPath";
@@ -19,7 +19,7 @@ const PopularCoursesWithData = HocWithDataA({
 export default function BlogInfo() {
   // use-context >>
   const { isLogin } = useContext(AuthContext);
-  const { shortName, title } = useContext(BlogInfoContext)?.blogInfo;
+  const { shortName = "", title = "" } = useContext(BlogInfoContext)?.blogInfo;
 
   useBreadCrump({
     breadCrumpArray: [
