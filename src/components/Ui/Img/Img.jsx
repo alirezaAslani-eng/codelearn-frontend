@@ -1,4 +1,4 @@
-import { memo, useEffect, useRef, useState } from "react";
+import {  useEffect, useRef, useState } from "react";
 import { ShimmerLoader } from "..";
 
 function Img({
@@ -71,4 +71,4 @@ function Img({
   );
 }
 
-export default memo(Img);
+export default Img;
