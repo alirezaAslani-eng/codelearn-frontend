@@ -33,8 +33,9 @@ export default function Landing({
           lazy={false}
           motion={false}
           inViewPortOption={false}
-          src="/codelearn-frontend/images/landingBackground.webp"
-          srcSet={"images/hero-xs.webp 600w, images/hero-lg.webp 1920w,"}
+          srcSet={
+            "/codelearn-frontend/images/hero-xs.webp 600w, /codelearn-frontend/images/hero-lg.webp 1920w,"
+          }
           sizes={"100vw"}
           className="image absolute inset-0"
         />
