@@ -1,6 +1,10 @@
 import { Link } from "react-router-dom";
 // icon
-import { HiChevronLeft, HiOutlineUserGroup , HiUserCircle} from "../icons/icons";
+import {
+  HiChevronLeft,
+  HiOutlineUserGroup,
+  HiUserCircle,
+} from "../icons/icons";
 // components From Ui
 import { Star, DelText, Img, Button } from "../index";
 import { imageAddrees } from "../../../constant/SerevrRoute";
@@ -27,7 +31,7 @@ const CourseBox = ({
         {/* Header */}
         <div className="imgBox mb-5 rounded-b-xl transition-all">
           <Link
-            to={fromMain(`${Main.course_info}/${shortName}}`)}
+            to={fromMain(`${Main.course_info}/${shortName}`)}
             className="h-full"
           >
             <Img src={imageAddrees + cover} className="image" loader={true} />
